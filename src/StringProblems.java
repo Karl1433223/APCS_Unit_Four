@@ -1,7 +1,9 @@
 public class StringProblems {
 
     public static String addHyphens(String s) {
-
+    String newString = "";
+    for (int i = 0; i < s.length(); i++) {
+        newString +=s.substring(i,i+1)+"-";
         return "";
     }
 
